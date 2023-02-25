@@ -1,5 +1,11 @@
-# learning-algorithm
-just a learning algorithm repository
+# 快速vscode c++环境搭建
+[toc]
+
+## 主要功能
++ vscode C++ 代码格式化配置
++ vscode C++ 环境配置
++ vscode C++ coderRunner配置
++ 将所有编译生成的exe文件统一放入zexe文件夹中
 
 ## 运行准备
 将vscode copy文件夹该名称  **.vscode**
