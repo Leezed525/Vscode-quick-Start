@@ -10,7 +10,7 @@
             "type": "cppdbg", //配置类型，只能为cppdbg
             "request": "launch", //请求配置类型，可以为launch（启动）或attach（附加）
             //调试程序的路径名称，得跟tasks.json中的 -o对应的路径相同
-            "program": "${workspaceFolder}\\zexe\\${fileBasenameNoExtension}.exe", //调试程序的路径名称
+            "program": "${workspaceFolder}/zexe/${fileBasenameNoExtension}.exe", //调试程序的路径名称
             "args": [], //调试传递参数
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -18,7 +18,7 @@
             "externalConsole": true, //true显示外置的控制台窗口，false显示内置终端
             "MIMode": "gdb",
             // 这里改为mingw/bin的编译器的位置
-            "miDebuggerPath": "D:\\mingw\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "${mingwPath}/gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

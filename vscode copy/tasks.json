@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe 生成活动文件",
-            "command": "D:\\mingw\\mingw64\\bin\\g++.exe",
+            "command": "g++.exe",
             "args": [
                 "-fexec-charset=gbk",//该代码解决的是c++运行时弹出终端输出乱码的原因
                 "-fdiagnostics-color=always",
@@ -13,10 +13,6 @@
                 //决定最终编译完成的文件生成在哪
                 "${workspaceFolder}\\zexe\\${fileBasenameNoExtension}.exe"
             ],
-            "options": {
-                //改成自己的位置mingW位置
-                "cwd": "D:\\mingw\\mingw64\\bin"
-            },
             "problemMatcher": [
                 "$gcc"
             ],
