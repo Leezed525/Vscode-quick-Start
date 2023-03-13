@@ -52,7 +52,7 @@ void operateFile(string fileName) {
     // 写文件
     ofstream writeFile;
     readFile.open(currentPath + "\\vscode copy\\" + fileName);
-    writeFile.open(currentPath + "\\vscode_init\\" + fileName);
+    writeFile.open(currentPath + "\\.vscode\\" + fileName);
     if (readFile.is_open()) {
         string tmp;
         while (getline(readFile, tmp)) {
