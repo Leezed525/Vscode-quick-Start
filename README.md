@@ -1,6 +1,9 @@
 # 快速vscode c++环境搭建
 [toc]
 
+## 手把手教程
+https://blog.csdn.net/Leezed525/article/details/129509981
+
 ## 主要功能
 + vscode C++ 代码格式化配置
 + vscode C++ 环境配置
