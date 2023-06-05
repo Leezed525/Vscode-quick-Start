@@ -27,7 +27,7 @@ inline int lowbit(int x) { return x & -x; }
 int main() {
     string s = "你好世界";
     cout << s << endl;
-    CreateDirectoryA(s.c_str(), NULL);
-    // system("pause");
+    // CreateDirectoryA(s.c_str(), NULL);
+    system("pause");
     return 0;
 }
